@@ -1,16 +1,4 @@
-"""Prueba de integración 2 · Steven Moises Lino Indacochea.
-
-Clasificación: bottom-up.
-Justificación: se parte de la capa más baja que tiene código propio
-(PaymentGateway, capa 3) y se le sube encima la lógica de negocio real
-(OrderService, capa 2). La CLI todavía no participa.
-Componentes reales: PaymentGateway, OrderService.
-Dependencias sustituidas:
-    - Proveedor HTTP de pagos -> requests_mock (simula un timeout de red).
-    - Base de datos (DbConnector) -> FakeDb.
-Comportamiento comprobado: si la pasarela no responde a tiempo, el servicio
-propaga PaymentGatewayError, no registra el pedido y no modifica el stock.
-"""
+"""Prueba de integración 2"""
 
 import pytest
 import requests

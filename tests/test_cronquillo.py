@@ -1,17 +1,4 @@
-"""Prueba de integración 5 · Carlos Andres Ronquillo Brush.
-
-Clasificación: top-down.
-Justificación: se empieza en la CLI (capa 1, run_order) y se baja a la lógica
-de negocio real (OrderService, capa 2) para comprobar la regla "la cantidad
-debe ser un entero positivo". Las capas inferiores se sustituyen.
-Componentes reales: app.cli.run_order, OrderService.
-Dependencias sustituidas:
-    - PaymentGateway -> mock (mocker.Mock con spec).
-    - Base de datos (DbConnector) -> FakeDb.
-Comportamiento comprobado: con cantidad 0, OrderService lanza ValueError, la
-CLI lo convierte en "ERROR: inesperado (...)" sin reventar, no se cobra, no
-se registra el pedido y el stock no cambia.
-"""
+"""Prueba de integración 5"""
 
 from app import cli
 from app.order_service import OrderService

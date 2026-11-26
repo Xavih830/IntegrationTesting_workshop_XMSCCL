@@ -1,18 +1,4 @@
-"""Prueba de integración 4 · Manuel Alejandro Matute Fernandez.
-
-Clasificación: top-down.
-Justificación: se empieza en la capa superior (la CLI, capa 1, mediante
-run_order) y se incorpora la lógica de negocio real (OrderService, capa 2).
-Las capas inferiores se sustituyen por dobles.
-Componentes reales: app.cli.run_order, OrderService.
-Dependencias sustituidas:
-    - PaymentGateway -> mock (mocker.Mock con spec), para verificar que no
-      se cobra.
-    - Base de datos (DbConnector) -> FakeDb.
-Comportamiento comprobado: si se piden más unidades de las disponibles, la
-CLI muestra "ERROR: sin stock", no se llama a la pasarela, no se registra el
-pedido y el stock no cambia.
-"""
+"""Prueba de integración 4"""
 
 from app import cli
 from app.order_service import OrderService
