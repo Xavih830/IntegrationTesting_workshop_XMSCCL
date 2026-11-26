@@ -1,6 +1,6 @@
 # OrderSystem · Integration Testing y Continuous Integration
 
-Taller de 120 minutos en equipos de cinco. Van a diseñar sus propias pruebas de integración y a configurar GitHub Actions para ejecutar
+Taller de 90 minutos en equipos de cinco. Van a diseñar sus propias pruebas de integración y a configurar GitHub Actions para ejecutar
 la suite cada vez que suban cambios a `main` con `git push`. Los cinco
 trabajarán en esa misma rama.
 
