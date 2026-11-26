@@ -9,6 +9,8 @@ trabajarán en esa misma rama.
 Un integrante crea el repositorio del equipo con **Use this template** y
 agrega a los otros cuatro como colaboradores. Todo el equipo debe aceptar la
 invitación y poder clonar el repo. Confirmen que la rama de trabajo sea `main`.
+<img width="805" height="77" alt="image" src="https://github.com/user-attachments/assets/9b7231ac-ac75-4a8c-8536-3327345ddde4" />
+
 
 ## Flujo del pedido
 
