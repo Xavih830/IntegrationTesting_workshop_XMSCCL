@@ -1,0 +1,45 @@
+# Documentación local, plan y capturas (no se suben)
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales y secretos
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Pytest, cobertura y otras herramientas
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.mutmut-cache
+mutants/
+
+# Asistentes de IA (configuración local)
+.claude/
+.gemini/
+
+# Temporales y registros
+*.log
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
